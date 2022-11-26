@@ -1,0 +1,38 @@
+.record-nav-con {
+  height: 60px;
+  position: relative;
+}
+.record-nav-con .record-nav {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.record-nav-con .record-nav .nav-link {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  flex: 1;
+  height: 30px;
+  line-height: 30px;
+  transition: color 300ms;
+}
+.record-nav-con .record-nav a:nth-of-type(1),
+.record-nav-con .record-nav a:nth-of-type(2) {
+  border-right: 1Px solid #ddd;
+}
+.record-nav-con .record-nav .active {
+  color: #975ec9;
+}
+.record-nav-con .nav-flag-bar {
+  width: 80px;
+  height: 2PX;
+  border-radius: 1px;
+  background-color: #975ec9;
+  position: absolute;
+  bottom: 0;
+  left: 17%;
+  margin-left: -65px;
+  transition: left 300ms;
+}

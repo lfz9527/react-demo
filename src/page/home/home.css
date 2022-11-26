@@ -1,0 +1,84 @@
+.home-container {
+  padding-top: 48px;
+  padding-bottom: 20px;
+}
+.home-container .common-title {
+  font-size: 20px;
+  color: #975ec9;
+  text-align: left;
+  padding: 20px;
+}
+.home-container .home-form {
+  background-color: #fff;
+}
+.home-container .home-form .home-form-tiem {
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1PX solid #eee;
+}
+.home-container .home-form .home-form-tiem span {
+  font-size: 16px;
+  color: #555;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.home-container .home-form .home-form-tiem input {
+  border: none;
+  font-size: 16px;
+}
+.home-container .home-form .home-form-tiem ::-webkit-input-placeholder {
+  color: #ccc;
+}
+.home-container .common-select-btn {
+  background-color: #fff;
+  display: block;
+  min-height: 60px;
+  font-size: 16px;
+  color: #ccc;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-container .common-select-btn .selected-pro-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.home-container .common-select-btn .selected-pro-list .selected-pro-item {
+  width: 340px;
+  margin: 10px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+.home-container .upload-img-con {
+  text-align: center;
+}
+.home-container .upload-img-con .file-lable {
+  position: relative;
+}
+.home-container .upload-img-con .file-lable input[type='file'] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+.home-container .upload-img-con .select-img {
+  margin-top: 10px;
+}
+.home-container .submit-btn {
+  background-color: #975ec9;
+  margin: 0 20px ;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}

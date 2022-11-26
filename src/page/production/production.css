@@ -1,0 +1,55 @@
+@import "../../assets/iconfonts/iconfont.css";
+.pro-list-ul {
+  background-color: #fff;
+}
+.pro-list-ul .pro-item {
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 1PX solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pro-list-ul .pro-item .pro-item-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pro-list-ul .pro-item .pro-item-select .pro-select-status {
+  font-size: 18px;
+  color: #ccc;
+  text-align: left;
+}
+.pro-list-ul .pro-item .pro-item-select .pro-selected {
+  color: #975ec9;
+}
+.pro-list-ul .pro-item .pro-item-select .pro-name {
+  font-size: 20px;
+  color: #333;
+  text-align: left;
+  margin-left: 20px;
+}
+.pro-list-ul .pro-item .pro-item-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pro-list-ul .pro-item .pro-item-edit .icon-jian {
+  font-size: 18px;
+  color: #ccc;
+  text-align: left;
+}
+.pro-list-ul .pro-item .pro-item-edit .pro-num {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  min-width: 60px;
+}
+.pro-list-ul .pro-item .pro-item-edit .icon-jia {
+  font-size: 18px;
+  color: #975ec9;
+  text-align: left;
+}
+.pro-list-ul .pro-item .pro-item-edit .edit-active {
+  color: #975ec9;
+}

@@ -1,0 +1,46 @@
+@import (reference) "../../style/mixin.less";
+@import "../../assets/iconfonts/iconfont.css";
+
+.pro-list-con{
+//   padding-top: @common-wd;
+}
+.pro-list-ul{
+  background-color: #fff;
+  .pro-item{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 1PX solid #eee;
+    .flex(space-between);
+    .pro-item-select{
+      .flex;
+      .pro-select-status{
+        .font(18px, #ccc);
+      }
+      .pro-selected{
+        color: @base-color;
+      }
+      .pro-name{
+        .font(20px);
+        margin-left: 20px;
+        // margin-top: 12px;
+      }
+    }
+    .pro-item-edit{
+      .flex;
+      .icon-jian{
+        .font(18px, #ccc);
+      }
+      .pro-num{
+        .font(18px, @text-align: center);
+        min-width: 60px;
+      }
+      .icon-jia{
+        .font(18px, @base-color);
+      }
+      .edit-active{
+        color: @base-color;
+      }
+    }
+  }
+}

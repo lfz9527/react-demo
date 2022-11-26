@@ -1,0 +1,36 @@
+.broke-main-content .broke-header {
+  font-size: 16px;
+  color: #999;
+  text-align: left;
+  padding: 20px;
+}
+.broke-main-content .broke-form {
+  background-color: #fff;
+  min-height: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.broke-main-content .broke-form p:nth-of-type(1) {
+  font-size: 20px;
+  color: #333;
+  text-align: left;
+}
+.broke-main-content .broke-form p:nth-of-type(2) {
+  font-size: 20px;
+  color: #333;
+  text-align: left;
+  margin-top: 10px;
+}
+.broke-main-content .broke-form p:nth-of-type(2) ::-webkit-input-placeholder {
+  color: #ccc;
+}
+.broke-main-content .broke-form p:nth-of-type(2) input {
+  border: none;
+  font-size: 20px;
+  color: #333;
+  text-align: left;
+  width: 80px;
+}
